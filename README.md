@@ -5,7 +5,7 @@ The Bar Standards Board *Handbook*, but comprehensible!
 [**Click here to download the *Red Book*.**](https://github.com/ezgranet/the-red-book/raw/main/the-red-book.pdf)
 
 
-<img src="cover-page.png" alt="cover-page" height="500"/>
+[<img src="cover-page.png" alt="cover-page" height="500"/>](https://github.com/ezgranet/the-red-book/raw/main/the-red-book.pdf)
 
 For all barristers and students on the Bar Course, the *Handbook* is an indispensible document.  Unfortunately, its official formatting is so terrible as to render its ethical teachings difficult to understand.  I believe one goal of policy should be to make doing good things easier, and therefore it should be easy to read the *Handbook* and follow its ethical pronouncements.
 
