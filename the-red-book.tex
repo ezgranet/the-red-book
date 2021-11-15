@@ -1,0 +1,96 @@
+\PassOptionsToPackage{unicode}{hyperref}
+\documentclass[a4paper,twoside]{memoir}
+\usepackage{silence}
+\setcounter{tocdepth}{8}
+\setcounter{secnumdepth}{-1}
+\WarningFilter{hyperref}{Token not allowed in a PDF}
+\WarningFilter{hyperref}{Difference (2)}
+\directlua{}
+\usepackage{xcolor}
+\definecolor{myred}{rgb}{0.7, 0.11, 0.11}
+
+\definecolor{bleu}{rgb}{0.19, 0.55, 0.91}
+\definecolor{mygold}{rgb}{0.85, 0.65, 0.13}
+\definecolor{darkgrey}{rgb}{0.52, 0.52, 0.51}
+\setcounter{secnumdepth}{0}
+\newcommand{\guidancesection}[1]{\section*{\color{darkgrey}#1}    \addcontentsline{toc}{section}{\color{darkgrey}#1}}
+\newcommand{\ocsection}[1]{\section*{\color{bleu}#1}    \addcontentsline{toc}{section}{\color{bleu}#1}}
+\newcommand{\ocsubsection}[1]{\subsection*{\color{bleu}#1}    \addcontentsline{toc}{subsection}{\color{bleu}#1}}
+
+\newcommand{\cdsubsection}[1]{\subsection*{\color{mygold}#1}    \addcontentsline{toc}{subsection}{\color{mygold}#1}}
+\newcommand{\rulesection}[1]{\section*{\color{myred}#1}    \addcontentsline{toc}{section}{\color{myred}#1}}
+\newcommand{\mysec}[1]{\section*{#1}    \addcontentsline{toc}{section}{#1}}
+\newcommand{\guidancesubsection}[1]{\subsection*{\color{darkgrey}#1}    \addcontentsline{toc}{subsection}{\color{darkgrey}#1}}
+\newcommand{\rulesubsubsection}[1]{\subsubsection*{\color{myred}#1}    \addcontentsline{toc}{subsubsection}{\color{myred}#1}}
+
+\newcommand{\rulesubsection}[1]{\subsection*{\color{myred}#1}    \addcontentsline{toc}{subsection}{\color{myred}#1}}
+\newcommand{\guidancesubsubsection}[1]{\subsubsection*{\color{darkgrey}#1}    \addcontentsline{toc}{subsubsection}{\color{darkgrey}#1}}
+\colorlet{MYGOLD}{mygold}
+\colorlet{DARKGREY}{darkgrey}
+\colorlet{MYRED}{myred}
+\colorlet{BLEU}{bleu}
+\input{/Users/ezgranet/Desktop/stationery/ezgranet-fonts/ezgranet-fonts-palatino.tex}\directlua{}
+\title{Code of Conduct}
+\author{Bar Standards Board}
+\newcommand\chap[1]{
+    \chapter*{#1}
+    \addcontentsline{toc}{chapter}{#1}
+    \markboth{#1}{#1}}
+\usepackage[margin=2in,headheight=24pt]{geometry}
+\newcommand{\hide}[1]{}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\newlist{numlist}{enumerate}{3}
+\setlist[numlist]{label=(\arabic*)}
+\newlist{romlist}{enumerate}{3}
+\setlist[romlist]{label=(\roman*)}
+\newlist{alphlist}{enumerate}{3}
+\setlist[alphlist]{label=(\emph{\alph*})}
+\newlist{Alphlist}{enumerate}{3}
+\setlist[Alphlist]{label=(\emph{\Alph*})}
+\newlist{dotlist}{enumerate}{3}
+\setlist[dotlist]{label=•}
+\newlist{dashlist}{enumerate}{3}
+\setlist[dashlist]{label=--}
+\newcommand{\nl}{\begin{numlist}}
+\renewcommand{\ln}{\end{numlist}}	
+\newcommand{\al}{\begin{alphlist}}
+\newcommand{\all}{\begin{alphlist}}
+\newcommand{\la}{\end{alphlist}}	
+\newcommand{\rl}{\begin{romlist}}
+\newcommand{\lr}{\end{romlist}}	
+
+\setlength{\parindent}{1.25em}
+\usepackage{graphicx}
+\usepackage{pdfpages}
+\begin{document}
+\includepdf{bsb-handbook-final}
+\cleartoverso
+\frontmatter
+\begin{KeepFromToc}
+  \tableofcontents
+\end{KeepFromToc}
+\chapter{BSB Chair’s introduction to Handbook}
+
+The BSB Handbook has set the standards of conduct for barristers since 2014. It serves as the key regulatory tool through which we can ensure the effective administration of justice is served. Barristers are central to the justice system, and clients depend upon their independence and ability to present their case fearlessly and effectively whilst providing a high standard of service.
+
+We want the Handbook to be accessible for barristers, users of barristers’ services, and the general public. Our aim is that the Handbook should allow consumers to understand what to expect from barristers as well as providing clarity about the regulatory regime with which barristers must comply. But we recognise that, as it has developed over the years, the Handbook has become less easy to use and we have therefore announced a review of the Handbook to ensure that it remains fit for purpose, relevant, and accessible.
+
+The Handbook also ensures that clients of barristers’ services receive the same level of protection and service regardless of the vehicle through which that service is provided. We now regulate a range of entities, including some alternative business structures. The Handbook ensures the public can be confident that the same standards apply to these different business structures as well as individual barristers.
+
+\medskip
+\hfill\scshape Baroness Tessa Blackstone
+
+\normalfont\hfill\itshape Chair of the BSB
+\normalfont
+\chapter{Handbook Release Notes}
+\input{chapters/releasenotes}
+\mainmatter
+\input{chapters/handbook1}
+\part{Code of Conduct}	
+\input{chapters/handbook2}
+\input{chapters/handbook3.tex}
+\input{chapters/handbook4}
+\input{chapters/handbook5.tex}
+\input{chapters/handbook6.texd}
+\end{document}
