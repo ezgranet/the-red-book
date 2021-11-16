@@ -20,7 +20,7 @@
 \contentsline {subsection}{\color {bleu}The Outcomes --}{6}{section*.34}%
 \contentsline {subsection}{\color {myred}The Rules --}{6}{section*.35}%
 \contentsline {subsection}{\color {darkgrey}Guidance --}{7}{section*.36}%
-\contentsline {subsection}{Regulations}{7}{section*.37}%
+\contentsline {subsection}{\color {myred}Regulations}{7}{section*.37}%
 \contentsline {section}{\color {myred}A3. Amendments to the Handbook}{8}{section*.38}%
 \contentsline {subsection}{\color {myred}rI1}{8}{section*.39}%
 \contentsline {subsection}{\color {myred}rI2}{8}{section*.40}%
