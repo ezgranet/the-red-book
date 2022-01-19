@@ -1,0 +1,44 @@
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xetex 2021.10.2)  26 NOV 2021 14:02
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**fonts-red-book.tex
+(./fonts-red-book.tex
+./fonts-red-book.tex:1: Undefined control sequence.
+l.1 \usepackage
+               {fontspec}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./fonts-red-book.tex:2: Undefined control sequence.
+l.2 \setmainfont
+                [Ligatures=TeX,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (40.21841pt too wide) in paragraph at lines 1--17
+\tenrm bers=OldStyle, Lig-a-tures=TeX,Common, BoldFont=PalatineParliamentary-Bold, ItalicFont=PalatineParliamentary-|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm b
+.\kern0.27779
+.\tenrm e
+.\tenrm r
+.\tenrm s
+.etc.
+
+)
+! Emergency stop.
+<*> fonts-red-book.tex
+                      
+*** (job aborted, no legal \end found)
+
+No pages of output.
