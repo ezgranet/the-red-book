@@ -5,6 +5,7 @@
 \setcounter{secnumdepth}{-1}
 \WarningFilter{hyperref}{Token not allowed in a PDF}
 \WarningFilter{hyperref}{Difference (2)}
+
 \directlua{}
 \usepackage{xcolor}
 \definecolor{myred}{rgb}{0.7, 0.11, 0.11}
@@ -21,10 +22,13 @@
 \newcommand{\rulesection}[1]{\section*{\color{myred}#1}    \addcontentsline{toc}{section}{\color{myred}#1}}
 \newcommand{\mysec}[1]{\section*{#1}    \addcontentsline{toc}{section}{#1}}
 \newcommand{\guidancesubsection}[1]{\subsection*{\color{darkgrey}#1}    \addcontentsline{toc}{subsection}{\color{darkgrey}#1}}
-\newcommand{\rulesubsubsection}[1]{\subsubsection*{\color{myred}#1}    \addcontentsline{toc}{subsubsection}{\color{myred}#1}}
+\newcommand{\rulesubsubsection}[1]{\subsubsection*{\color{myred}#1}}
 
 \newcommand{\rulesubsection}[1]{\subsection*{\color{myred}#1}    \addcontentsline{toc}{subsection}{\color{myred}#1}}
-\newcommand{\guidancesubsubsection}[1]{\subsubsection*{\color{darkgrey}#1}    \addcontentsline{toc}{subsubsection}{\color{darkgrey}#1}}
+\newcommand{\guidancesubsubsection}[1]{\subsubsection*{\color{darkgrey}#1}
+%\addcontentsline{toc}{subsubsection}{\color{darkgrey}#1}
+}
+
 \colorlet{MYGOLD}{mygold}
 \colorlet{DARKGREY}{darkgrey}
 \colorlet{MYRED}{myred}
@@ -63,6 +67,7 @@
 \setlength{\parindent}{1.25em}
 \usepackage{graphicx}
 \usepackage{pdfpages}
+\maxtocdepth{subsection}
 \begin{document}
 \includepdf{cover-page.pdf}
 \cleartoverso
