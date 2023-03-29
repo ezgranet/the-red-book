@@ -1,20 +1,22 @@
 \usepackage{fontspec}
 \setmainfont[Ligatures=TeX,
 Scale=.96, 
+RawFeature={+pnum,+lnum},
 SmallCapsFeatures={LetterSpace=15,RawFeature={+smcp},},
-BoldFeatures = {SmallCapsFont= {PalatineParliamentary-Bold},SmallCapsFeatures={%
-RawFeature={+smcp,}%
-}},
+BoldFeatures = {
+RawFeature={+pnum,+lnum,+liga},
+SmallCapsFont= {PalatineParliamentary-Bold},SmallCapsFeatures={%
+RawFeature={+smcp,+pnum,+lnum,+liga}%
+},},
 Numbers={OldStyle},
 	Ligatures={TeX,Common},
 BoldFont={PalatineParliamentary-Bold}, 
  ItalicFont={PalatineParliamentary-Italic},
- % ItalicFeatures={
- % RawFeature={+hlig,+dlig,+liga,+pnum,+onum}, 
-%  },
+  ItalicFeatures={
+  RawFeature={+liga,+pnum,+lnum},
+},
  BoldItalicFont={PalatineParliamentary-BoldItalic}
 ]{PalatineParliamentary-Regular}
-
 
 
 
