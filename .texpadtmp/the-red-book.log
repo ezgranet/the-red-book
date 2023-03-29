@@ -1,9 +1,9 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.11.7)  22 NOV 2022 21:33
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2023.3.14)  29 MAR 2023 11:42
  restricted system commands enabled.
  file:line:error style messages enabled.
 **the-red-book.tex
 (./the-red-book.tex
-LaTeX2e <2022-11-01>
+LaTeX2e <2022-11-01> patch level 1
 Lua module: luaotfload 2022-10-03 3.23 Lua based OpenType font support
 Lua module: lualibs 2022-10-04 2.75 ConTeXt Lua standard libraries.
 Lua module: lualibs-extended 2022-10-04 2.75 ConTeXt Lua libraries -- extended collection.
@@ -33,16 +33,16 @@ Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
 Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
 Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
 Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
-Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'. L3 programming layer <2022-11-02>
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'. L3 programming layer <2023-02-22>
 Inserting `tracingstacklevels' in `input_level_string'. (/usr/local/texlive/2022/texmf-dist/tex/latex/memoir/memoir.cls
 Document Class: memoir 2022/11/17 v3.7.19 configurable book, report, article document class
 (/usr/local/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count183
 )
-\onelineskip=\skip47
-\lxvchars=\skip48
-\xlvchars=\skip49
+\onelineskip=\skip48
+\lxvchars=\skip49
+\xlvchars=\skip50
 \@memcnta=\count184
 \c@@memmarkcntra=\count185
  (/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
@@ -50,27 +50,27 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
 \stockheight=\dimen139
 \stockwidth=\dimen140
-\trimtop=\skip50
-\trimedge=\skip51
+\trimtop=\skip51
+\trimedge=\skip52
  (/usr/local/texlive/2022/texmf-dist/tex/latex/memoir/mem10.clo
 File: mem10.clo 2022/07/29 v0.5 memoir class 10pt size option
 luaotfload | db : Font names database loaded from /Users/ezgranet/Library/texlive/2022/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz)
-\binding=\skip52
-\spinemargin=\skip53
-\foremargin=\skip54
-\uppermargin=\skip55
-\lowermargin=\skip56
-\headdrop=\skip57
-\normalrulethickness=\skip58
-\mem@maxheadheight=\skip59
-\mem@maxfootheight=\skip60
-\headwidth=\skip61
+\binding=\skip53
+\spinemargin=\skip54
+\foremargin=\skip55
+\uppermargin=\skip56
+\lowermargin=\skip57
+\headdrop=\skip58
+\normalrulethickness=\skip59
+\mem@maxheadheight=\skip60
+\mem@maxfootheight=\skip61
+\headwidth=\skip62
 \c@storedpagenumber=\count186
 \memPD=\dimen141
-\m@mabparskip=\skip62
-\thanksmarkwidth=\skip63
-\thanksmarksep=\skip64
-\droptitle=\skip65
+\m@mabparskip=\skip63
+\thanksmarkwidth=\skip64
+\thanksmarksep=\skip65
+\droptitle=\skip66
 \c@book=\count187
 \c@part=\count188
 \c@chapter=\count189
@@ -79,77 +79,77 @@ luaotfload | db : Font names database loaded from /Users/ezgranet/Library/texliv
 \c@subsubsection=\count192
 \c@paragraph=\count193
 \c@subparagraph=\count194
-\beforechapskip=\skip66
-\midchapskip=\skip67
-\afterchapskip=\skip68
-\chapindent=\skip69
-\bottomsectionskip=\skip70
-\secindent=\skip71
-\beforesecskip=\skip72
-\aftersecskip=\skip73
-\subsecindent=\skip74
-\beforesubsecskip=\skip75
-\aftersubsecskip=\skip76
-\subsubsecindent=\skip77
-\beforesubsubsecskip=\skip78
-\aftersubsubsecskip=\skip79
-\paraindent=\skip80
-\beforeparaskip=\skip81
-\afterparaskip=\skip82
-\subparaindent=\skip83
-\beforesubparaskip=\skip84
-\aftersubparaskip=\skip85
-\pfbreakskip=\skip86
+\beforechapskip=\skip67
+\midchapskip=\skip68
+\afterchapskip=\skip69
+\chapindent=\skip70
+\bottomsectionskip=\skip71
+\secindent=\skip72
+\beforesecskip=\skip73
+\aftersecskip=\skip74
+\subsecindent=\skip75
+\beforesubsecskip=\skip76
+\aftersubsecskip=\skip77
+\subsubsecindent=\skip78
+\beforesubsubsecskip=\skip79
+\aftersubsubsecskip=\skip80
+\paraindent=\skip81
+\beforeparaskip=\skip82
+\afterparaskip=\skip83
+\subparaindent=\skip84
+\beforesubparaskip=\skip85
+\aftersubparaskip=\skip86
+\pfbreakskip=\skip87
 \c@@ppsavesec=\count195
 \c@@ppsaveapp=\count196
 \ragrparindent=\dimen142
 \everylistparindent=\dimen143
-\parsepi=\skip87
-\topsepi=\skip88
-\itemsepi=\skip89
-\parsepii=\skip90
-\topsepii=\skip91
-\topsepiii=\skip92
-\itemsepii=\skip93
-\itemsepiii=\skip94
-\partopsepii=\skip95
-\partopsepiii=\skip96
-\m@msavetopsep=\skip97
-\m@msavepartopsep=\skip98
+\parsepi=\skip88
+\topsepi=\skip89
+\itemsepi=\skip90
+\parsepii=\skip91
+\topsepii=\skip92
+\topsepiii=\skip93
+\itemsepii=\skip94
+\itemsepiii=\skip95
+\partopsepii=\skip96
+\partopsepiii=\skip97
+\m@msavetopsep=\skip98
+\m@msavepartopsep=\skip99
 \@enLab=\toks16
-\abstitleskip=\skip99
-\absleftindent=\skip100
+\abstitleskip=\skip100
+\absleftindent=\skip101
 \abs@leftindent=\dimen144
-\absrightindent=\skip101
-\absparindent=\skip102
-\absparsep=\skip103
+\absrightindent=\skip102
+\absparindent=\skip103
+\absparsep=\skip104
 \c@vslineno=\count197
 \c@poemline=\count198
 \c@modulo@vs=\count199
 \c@memfvsline=\count266
-\vleftskip=\skip104
-\vrightskip=\skip105
-\stanzaskip=\skip106
-\versewidth=\skip107
-\vgap=\skip108
-\vindent=\skip109
+\vleftskip=\skip105
+\vrightskip=\skip106
+\stanzaskip=\skip107
+\versewidth=\skip108
+\vgap=\skip109
+\vindent=\skip110
 \vleftmargin=\dimen145
 \c@verse=\count267
 \c@chrsinstr=\count268
-\beforepoemtitleskip=\skip110
-\afterpoemtitleskip=\skip111
+\beforepoemtitleskip=\skip111
+\afterpoemtitleskip=\skip112
 \c@poem=\count269
-\beforePoemTitleskip=\skip112
-\midPoemTitleskip=\skip113
-\afterPoemTitleskip=\skip114
+\beforePoemTitleskip=\skip113
+\midPoemTitleskip=\skip114
+\afterPoemTitleskip=\skip115
  (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/array.sty
 Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen146
 \ar@mcellbox=\box51
 \extrarowheight=\dimen147
 \NC@list=\toks17
-\extratabsurround=\skip115
-\backup@length=\skip116
+\extratabsurround=\skip116
+\backup@length=\skip117
 \ar@cellbox=\box52
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/dcolumn.sty
 Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
@@ -182,8 +182,8 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \@thisruleclass=\count273
 \@lastruleclass=\count274
 \@thisrulewidth=\dimen165
-\ctableftskip=\skip117
-\ctabrightskip=\skip118
+\ctableftskip=\skip118
+\ctabrightskip=\skip119
 \abovecolumnspenalty=\count275
 \@linestogo=\count276
 \@cellstogo=\count277
@@ -192,15 +192,15 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \@mincolumnwidth=\dimen166
 \c@newflo@tctr=\count279
 \mem@margin@floatbox=\box53
-\@contcwidth=\skip119
-\@contindw=\skip120
-\abovecaptionskip=\skip121
-\belowcaptionskip=\skip122
-\subfloattopskip=\skip123
-\subfloatcapskip=\skip124
-\subfloatcaptopadj=\skip125
-\subfloatbottomskip=\skip126
-\subfloatlabelskip=\skip127
+\@contcwidth=\skip120
+\@contindw=\skip121
+\abovecaptionskip=\skip122
+\belowcaptionskip=\skip123
+\subfloattopskip=\skip124
+\subfloatcapskip=\skip125
+\subfloatcaptopadj=\skip126
+\subfloatbottomskip=\skip127
+\subfloatlabelskip=\skip128
 \subfloatcapmargin=\dimen167
 \c@@contsubnum=\count280
 \m@mscap@capbox=\box54
@@ -212,89 +212,89 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \sidecapraise=\dimen172
 \m@mscapmainwidth=\dimen173
 \m@mscaplkern=\dimen174
-\beforeepigraphskip=\skip128
-\afterepigraphskip=\skip129
-\epigraphwidth=\skip130
-\epigraphrule=\skip131
+\beforeepigraphskip=\skip129
+\afterepigraphskip=\skip130
+\epigraphwidth=\skip131
+\epigraphrule=\skip132
 LaTeX Info: Redefining \em on input line 7655.
 LaTeX Info: Redefining \emph on input line 7663.
-\tocentryskip=\skip132
-\tocbaseline=\skip133
-\cftparskip=\skip134
-\cftbeforebookskip=\skip135
+\tocentryskip=\skip133
+\tocbaseline=\skip134
+\cftparskip=\skip135
+\cftbeforebookskip=\skip136
 \cftbookindent=\dimen175
 \cftbooknumwidth=\dimen176
-\cftbeforepartskip=\skip136
-\cftpartindent=\skip137
-\cftpartnumwidth=\skip138
-\cftbeforechapterskip=\skip139
-\cftchapterindent=\skip140
-\cftchapternumwidth=\skip141
-\cftbeforesectionskip=\skip142
-\cftsectionindent=\skip143
-\cftsectionnumwidth=\skip144
-\cftbeforesubsectionskip=\skip145
-\cftsubsectionindent=\skip146
-\cftsubsectionnumwidth=\skip147
-\cftbeforesubsubsectionskip=\skip148
-\cftsubsubsectionindent=\skip149
-\cftsubsubsectionnumwidth=\skip150
-\cftbeforeparagraphskip=\skip151
-\cftparagraphindent=\skip152
-\cftparagraphnumwidth=\skip153
-\cftbeforesubparagraphskip=\skip154
-\cftsubparagraphindent=\skip155
-\cftsubparagraphnumwidth=\skip156
+\cftbeforepartskip=\skip137
+\cftpartindent=\skip138
+\cftpartnumwidth=\skip139
+\cftbeforechapterskip=\skip140
+\cftchapterindent=\skip141
+\cftchapternumwidth=\skip142
+\cftbeforesectionskip=\skip143
+\cftsectionindent=\skip144
+\cftsectionnumwidth=\skip145
+\cftbeforesubsectionskip=\skip146
+\cftsubsectionindent=\skip147
+\cftsubsectionnumwidth=\skip148
+\cftbeforesubsubsectionskip=\skip149
+\cftsubsubsectionindent=\skip150
+\cftsubsubsectionnumwidth=\skip151
+\cftbeforeparagraphskip=\skip152
+\cftparagraphindent=\skip153
+\cftparagraphnumwidth=\skip154
+\cftbeforesubparagraphskip=\skip155
+\cftsubparagraphindent=\skip156
+\cftsubparagraphnumwidth=\skip157
 \prechapterprecisshift=\dimen177
 \c@maxsecnumdepth=\count281
 \bibindent=\dimen178
-\bibitemsep=\skip157
-\indexcolsep=\skip158
-\indexrule=\skip159
+\bibitemsep=\skip158
+\indexcolsep=\skip159
+\indexrule=\skip160
 \indexmarkstyle=\toks20
 \@indexbox=\insert252
 \glossarycolsep=\dimen179
 \glossaryrule=\dimen180
-\sideparvshift=\skip160
+\sideparvshift=\skip161
 \sideins=\insert251
-\sidebartopsep=\skip161
-\sidebarhsep=\skip162
-\sidebarvsep=\skip163
-\sidebarwidth=\skip164
-\footmarkwidth=\skip165
-\footmarksep=\skip166
-\footparindent=\skip167
-\footinsdim=\skip168
+\sidebartopsep=\skip162
+\sidebarhsep=\skip163
+\sidebarvsep=\skip164
+\sidebarwidth=\skip165
+\footmarkwidth=\skip166
+\footmarksep=\skip167
+\footparindent=\skip168
+\footinsdim=\skip169
 \footinsv@r=\insert250
 \@mpfootinsv@r=\insert249
 \m@m@k=\count282
 \m@m@h=\dimen181
-\m@mipn@skip=\skip169
+\m@mipn@skip=\skip170
 \sidefootins=\insert248
-\sidefootadjust=\skip170
-\sidefootheight=\skip171
-\sidefoothsep=\skip172
-\sidefootvsep=\skip173
-\sidefootwidth=\skip174
-\m@mdownsf=\skip175
+\sidefootadjust=\skip171
+\sidefootheight=\skip172
+\sidefoothsep=\skip173
+\sidefootvsep=\skip174
+\sidefootwidth=\skip175
+\m@mdownsf=\skip176
 \c@sidefootnote=\count283
-\sidefootmarkwidth=\skip176
-\sidefootmarksep=\skip177
-\sidefootparindent=\skip178
+\sidefootmarkwidth=\skip177
+\sidefootmarksep=\skip178
+\sidefootparindent=\skip179
 \c@pagenote=\count284
 \c@pagenoteshadow=\count285
-\mem@pn@lastkern=\skip179
+\mem@pn@lastkern=\skip180
 \every@verbatim=\toks21
 \afterevery@verbatim=\toks22
 \verbatim@line=\toks23
 \tab@position=\count286
 \verbatim@in@stream=\read2
-\verbatimindent=\skip180
+\verbatimindent=\skip181
 \verbatim@out=\write3
-\bvboxsep=\skip181
+\bvboxsep=\skip182
 \c@memfbvline=\count287
 \c@bvlinectr=\count288
-\bvnumlength=\skip182
+\bvnumlength=\skip183
 \fb@frw=\dimen182
 \fb@frh=\dimen183
 \FrameRule=\dimen184
@@ -320,14 +320,14 @@ Package textcase Info: Defining Legacy names on input line 20.
 )
 \c@figure=\count304
 \c@lofdepth=\count305
-\cftbeforefigureskip=\skip183
-\cftfigureindent=\skip184
-\cftfigurenumwidth=\skip185
+\cftbeforefigureskip=\skip184
+\cftfigureindent=\skip185
+\cftfigurenumwidth=\skip186
 \c@table=\count306
 \c@lotdepth=\count307
-\cftbeforetableskip=\skip186
-\cfttableindent=\skip187
-\cfttablenumwidth=\skip188
+\cftbeforetableskip=\skip187
+\cfttableindent=\skip188
+\cfttablenumwidth=\skip189
 Package abstract [2008/07/23] emulated by memoir.
 Package appendix [2008/07/23] emulated by memoir.
 Package booktabs [2016/05/16] emulated by memoir.
@@ -399,13 +399,13 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 ) (./fonts-red-book.tex (/usr/local/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec.sty (/usr/local/texlive/2022/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/local/texlive/2022/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2022-11-02 L3 programming layer (loader) 
+Package: expl3 2023-02-22 L3 programming layer (loader) 
  (/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
-File: l3backend-luatex.def 2022-10-26 L3 backend support: PDF output (LuaTeX)
+File: l3backend-luatex.def 2023-01-16 L3 backend support: PDF output (LuaTeX)
 \l__color_backend_stack_int=\count318
 \l__pdf_internal_box=\box56
 ))
-Package: xparse 2022-06-22 L3 Experimental document command parser
+Package: xparse 2023-02-02 L3 Experimental document command parser
 )
 Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
 Lua module: fontspec 2022/01/15 2.8a Font selection for XeLaTeX and LuaLaTeX (/usr/local/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
@@ -478,7 +478,7 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutvoffset=\dimen196
 \Gm@dimlist=\toks33
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2022-11-13 v7.00u Hypertext links for LaTeX
+Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
  (/usr/local/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 ) (/usr/local/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
@@ -518,7 +518,7 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 \Hy@linkcounter=\count334
 \Hy@pagecounter=\count335
  (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2022-11-13 v7.00u Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
 ) (/usr/local/texlive/2022/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 ) (/usr/local/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty
@@ -526,22 +526,22 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count336
  (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2022-11-13 v7.00u Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
 )
-Package hyperref Info: Option `unicode' set `true' on input line 4045.
-Package hyperref Info: Hyper figures OFF on input line 4162.
-Package hyperref Info: Link nesting OFF on input line 4167.
-Package hyperref Info: Hyper index ON on input line 4170.
-Package hyperref Info: Plain pages OFF on input line 4177.
-Package hyperref Info: Backreferencing OFF on input line 4182.
+Package hyperref Info: Option `unicode' set `true' on input line 4060.
+Package hyperref Info: Hyper figures OFF on input line 4177.
+Package hyperref Info: Link nesting OFF on input line 4182.
+Package hyperref Info: Hyper index ON on input line 4185.
+Package hyperref Info: Plain pages OFF on input line 4192.
+Package hyperref Info: Backreferencing OFF on input line 4197.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4410.
+Package hyperref Info: Bookmarks ON on input line 4425.
 \c@Hy@tempcnt=\count337
  (/usr/local/texlive/2022/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4748.
+LaTeX Info: Redefining \url on input line 4763.
 \XeTeXLinkMargin=\dimen198
  (/usr/local/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -551,13 +551,13 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 \Fld@menulength=\count338
 \Field@Width=\dimen199
 \Fld@charsize=\dimen256
-Package hyperref Info: Hyper figures OFF on input line 6027.
-Package hyperref Info: Link nesting OFF on input line 6032.
-Package hyperref Info: Hyper index ON on input line 6035.
-Package hyperref Info: backreferencing OFF on input line 6042.
-Package hyperref Info: Link coloring OFF on input line 6047.
-Package hyperref Info: Link coloring with OCG OFF on input line 6052.
-Package hyperref Info: PDF/A mode OFF on input line 6057.
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
@@ -568,7 +568,7 @@ package with kernel methods
 )
 Package hyperref Info: Driver (autodetected): hluatex.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hluatex.def
-File: hluatex.def 2022-11-13 v7.00u Hyperref driver for luaTeX
+File: hluatex.def 2023-02-07 v7.00v Hyperref driver for luaTeX
  (/usr/local/texlive/2022/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
@@ -584,7 +584,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
-\Hy@SectionHShift=\skip189
+\Hy@SectionHShift=\skip190
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/memoir/memhfixc.sty
 Package: memhfixc 2022/11/17 v1.20 nameref/hyperref package fixes for memoir class
 
@@ -595,7 +595,7 @@ LaTeX Info: Redefining \nameref on input line 106.
 \c@Hpagenote=\count345
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip190
+\labelindent=\skip191
 \enit@outerparindent=\dimen257
 \enit@toks=\toks35
 \enit@inbox=\box57
@@ -640,7 +640,7 @@ Package graphics Info: Driver file: luatex.def on input line 107.
 \Gin@req@height=\dimen258
 \Gin@req@width=\dimen259
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/pdfpages/pdfpages.sty
-Package: pdfpages 2022/10/09 v0.5w Insert pages of external PDF documents (AM)
+Package: pdfpages 2022/12/19 v0.5x Insert pages of external PDF documents (AM)
  (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/calc.sty
@@ -649,12 +649,12 @@ Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bcount=\count373
 \calc@Adimen=\dimen260
 \calc@Bdimen=\dimen261
-\calc@Askip=\skip191
-\calc@Bskip=\skip192
+\calc@Askip=\skip192
+\calc@Bskip=\skip193
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count374
-\calc@Cskip=\skip193
+\calc@Cskip=\skip194
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
 \ESO@tempdima=\dimen262
@@ -664,13 +664,14 @@ Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
 \AM@pageheight=\dimen265
 \AM@fboxrule=\dimen266
  (/usr/local/texlive/2022/texmf-dist/tex/latex/pdfpages/ppluatex.def
-File: ppluatex.def 2022/10/09 v0.5w Pdfpages driver for LuaTeX (AM)
+File: ppluatex.def 2022/12/19 v0.5x Pdfpages driver for LuaTeX (AM)
 )
 \pdfpages@includegraphics@status=\count375
 \AM@pagebox=\box58
 \AM@global@opts=\toks36
 \AM@pagecnt=\count376
 \AM@toc@title=\toks37
+\AM@lof@heading=\toks38
 \c@AM@survey=\count377
 \AM@templatesizebox=\box59
 ) (/Users/ezgranet/Documents/GitHub/the-red-book/.texpadtmp/the-red-book.aux)
@@ -707,12 +708,12 @@ LaTeX Font Info:    ... okay on input line 71.
 \scratchbox=\box60
 \nofMPsegments=\count379
 \nofMParguments=\count380
-\everyMPshowfont=\toks38
+\everyMPshowfont=\toks39
 \MPscratchCnt=\count381
 \MPscratchDim=\dimen268
 \MPnumerator=\count382
 \makeMPintoPDFobject=\count383
-\everyMPtoPDFconversion=\toks39
+\everyMPtoPDFconversion=\toks40
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -4549,16 +4550,16 @@ Package rerunfilecheck Info: File `the-red-book.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 21165 strings out of 477250
- 100000,953878 words of node,token memory allocated
- 1545 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 4 glue, 3 kern, 1 glyph, 49 attribute, 186 glue_spec, 49 attribute_list, 2 write, 42 pdf_action nodes
-   avail lists: 2:1190,3:450,4:192,5:1267,6:115,7:6864,8:90,9:643,10:16,11:568
- 38128 multiletter control sequences out of 65536+600000
+ 21164 strings out of 478290
+ 100000,1977958 words of node,token memory allocated
+ 1550 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 4 glue, 3 kern, 1 glyph, 49 attribute, 187 glue_spec, 49 attribute_list, 2 write, 42 pdf_action nodes
+   avail lists: 2:1190,3:450,4:192,5:1270,6:115,7:6864,8:90,9:643,10:16,11:568
+ 37087 multiletter control sequences out of 65536+600000
  61 fonts using 7918071 bytes
  77i,17n,102p,994b,948s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </Users/ezgranet/Library/Fonts/PalatineP-BoldItalic.otf></Users/ezgranet/Library/Fonts/PalatineP-Italic.otf></Users/ezgranet/Library/Fonts/PalatineP-Regular.otf></Users/ezgranet/Library/Fonts/PalatineP-Bold.otf>
-Output written on the-red-book.pdf (387 pages, 14250575 bytes).
+Output written on the-red-book.pdf (387 pages, 14250604 bytes).
 
 PDF statistics: 5527 PDF objects out of 6186 (max. 8388607)
  5064 compressed objects within 51 object streams
