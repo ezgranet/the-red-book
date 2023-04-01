@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.3.29)  29 MAR 2023 17:08
+This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.3.29)  1 APR 2023 10:28
  restricted system commands enabled.
  file:line:error style messages enabled.
 **the-red-book.tex
@@ -4513,7 +4513,7 @@ Here is how much of LuaTeX's memory you used:
  61 fonts using 7918071 bytes
  77i,17n,102p,994b,948s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </Users/ezgranet/Library/Fonts/PalatineP-BoldItalic.otf></Users/ezgranet/Library/Fonts/PalatineP-Italic.otf></Users/ezgranet/Library/Fonts/PalatineP-Regular.otf></Users/ezgranet/Library/Fonts/PalatineP-Bold.otf>
-Output written on the-red-book.pdf (385 pages, 14250143 bytes).
+Output written on the-red-book.pdf (385 pages, 14250139 bytes).
 
 PDF statistics: 5517 PDF objects out of 6186 (max. 8388607)
  5056 compressed objects within 51 object streams
